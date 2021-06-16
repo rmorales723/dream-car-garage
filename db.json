@@ -1,0 +1,90 @@
+{
+  "parks": [
+    {
+      "Zip Code": 38804,
+      "Phone Number": 0,
+      "Fax Number": "(662) 680-4034",
+      "Latitude": 34.307545,
+      "Longitude": -88.720974,
+      "Location": { "coordinates": [-88.720974, 34.307545], "type": "Point" }
+    },
+    {
+      "Location Number": "BRVB",
+      "Location Name": "Brown v. Board of Education National Historic Site",
+      "Address": "1515 SE Monroe Street",
+      "City": "Topeka",
+      "State": "KS",
+      "Zip Code": 66612,
+      "Phone Number": "(785) 354-4273",
+      "Fax Number": "(785) 354-7213",
+      "Latitude": 39.037925,
+      "Longitude": -95.676498,
+      "Location": { "coordinates": [-95.676498, 39.037925], "type": "Point" }
+    },
+    {
+      "Location Number": "BRCA",
+      "Location Name": "Bryce Canyon National Park",
+      "Address": "PO Box 640201",
+      "City": "Bryce",
+      "State": "UT",
+      "Zip Code": "84764-0201",
+      "Phone Number": "(435) 834-5322",
+      "Fax Number": "(435) 834-4703",
+      "Latitude": 37.5965706,
+      "Longitude": -112.1787896,
+      "Location": { "coordinates": [-112.1787896, 37.5965706], "type": "Point" }
+    },
+    {
+      "Location Number": "buff",
+      "Location Name": "Buffalo National River",
+      "Address": "402 N. Walnut, Suite 136",
+      "City": "Harrison",
+      "State": "AR",
+      "Zip Code": 72601,
+      "Phone Number": "(870) 439-2502",
+      "Fax Number": "(870) 365-2701",
+      "Latitude": 36.2331995,
+      "Longitude": -93.1060044,
+      "Location": { "coordinates": [-93.1060044, 36.2331995], "type": "Point" }
+    },
+    {
+      "Location Number": "cabr",
+      "Location Name": "Cabrillo National Monument",
+      "Address": "1800 Cabrillo Memorial Drive",
+      "City": "San Diego",
+      "State": "CA",
+      "Zip Code": "92106-3601",
+      "Phone Number": 0,
+      "Fax Number": "(619) 226-6311",
+      "Latitude": 32.674287,
+      "Longitude": -117.23963,
+      "Location": { "coordinates": [-117.23963, 32.674287], "type": "Point" }
+    },
+    {
+      "Location Number": "cali",
+      "Location Name": "California National Historic Trail",
+      "Address": "National Trails Intermountain Region, 324 South State St.,Suite 200",
+      "City": "Salt Lake City",
+      "State": "UT",
+      "Zip Code": 84111,
+      "Phone Number": "(801) 741-1012",
+      "Fax Number": "(801) 741-1102",
+      "Latitude": 40.7620689,
+      "Longitude": -111.888922,
+      "Location": { "coordinates": [-111.888922, 40.7620689], "type": "Point" }
+    },
+    {
+      "Location Number": "cana",
+      "Location Name": "Canaveral National Seashore",
+      "Address": "212 S. Washington Avenue",
+      "City": "Titusville",
+      "State": "Florida",
+      "Zip Code": 32796,
+      "Phone Number": "(386) 428-3384 ext. 10",
+      "Fax Number": "(321) 264-2906",
+      "Latitude": 28.613144,
+      "Longitude": -80.8075783,
+      "Location": { "coordinates": [-80.8075783, 28.613144], "type": "Point" }
+    }
+  ]
+}
