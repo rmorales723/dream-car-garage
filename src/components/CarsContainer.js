@@ -16,13 +16,16 @@ class CarContainer extends Component {
     render() {
         return(
             <div>
-                <h2>Cars</h2>
-                {this.state.cars.map(car => {
-                    <cars />
-                } )}
+                <h2>cars</h2>
+                {this.state.cars.map((make,model,img) => {
+                    <car 
+                    make= {make} 
+                    model= {model} 
+                    img={img}/>
+                })}
             </div>
         )
     }
 }
 
-export default CarContainer;
+export default CarsContainer;

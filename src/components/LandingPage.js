@@ -1,27 +1,17 @@
 import React from 'react'
+import CarsContainer from './components/CarsContainer.js'
+
+
+
+
 
 const LandingPage = () => {
-    return (
+    return(
+
     <div className= "landing-page-container">
-        <h1>MY DREAM CAR GARAGE</h1>    
+        <h1>MY DREAM CAR GARAGE</h1> 
     </div>)
     };
-    
-function clickMe() {
-    alert('clicked');
-}
-
-
-export default function landingPage() {
-    return (
-        <div>
-            <button onClick={clickMe}>
-                Car Inventory List
-            </button>
-        </div>
-    )
-}
-
 
     
     
@@ -29,4 +19,4 @@ export default function landingPage() {
 
 
 
- 
+export default LandingPage;
