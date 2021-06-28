@@ -1,7 +1,8 @@
-import React from 'react'
+import React, {Component} from 'react'
+import Car from './Car'
 
 
-class CarContainer extends Component {
+class CarsContainer extends Component {
 
     state = {
         cars: []
@@ -17,12 +18,12 @@ class CarContainer extends Component {
         return(
             <div>
                 <h2>cars</h2>
-                {this.state.cars.map((make,model,img) => {
-                    <car 
+                {this.state.cars.map(({make,model,img}) => (
+                    <Car 
                     make= {make} 
                     model= {model} 
                     img={img}/>
-                })}
+                ))}
             </div>
         )
     }
