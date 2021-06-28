@@ -1,21 +1,14 @@
 import React from 'react'
 
-const Car = (props) => {
-    <div>
-        <div className="Make">
-            <div className="Model">
-              <img src= " "></img>
-            </div>
-        </div>
-    </div>
-
+class Car extends Component {
+  render() {
+    return (
+      <div className="car">
+        <h2>{ this.props.state.model}</h2>
+      <div><img width="100%" src={ this.props.state.img } alt="" /></div>
+        <p>{ this.props.state.make}</p>
+        <p><strong>{ this.props.state.engine }</strong></p>
+      </div>
+    );
+  }
 }
-
-
-
-
-
-
-
-
-export default Car;
