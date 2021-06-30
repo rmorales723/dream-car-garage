@@ -1,22 +1,37 @@
-import React, { Component } from 'react'
+import React from 'react'
 
 class FormContainer extends React.Component {
     state = {
-       make : ""
+       make : "",
     };
 
     handleOnChange = (event) => {
         this.setState({
-            name: event.target.value
+            make: event.target.value,
         });
-        console.log(this.state);
+        
     };
+
+    handleOnSubmit = (event) => {
+        method: 'POST',
+        headers: {'Content-Type': 'application/json'},
+        body: JSON.stringify(event)
+    };
+    
+        fetch("http://localhost:5000/cars")
+        .then(res => res.json())
+        .then((cars => this.setState({cars})));
+}
+
+
 
     render() {
         return(
             <div>
-                <form>
-                    <input type="text" make="name" model=" " img=" "
+                <form onSubmit= {this.handleOnSubmit}>
+                    <input
+                        type="text" 
+                        make="name" 
                         value={this.state.make}
                         onChange={this.handleOnChange}
                     />
