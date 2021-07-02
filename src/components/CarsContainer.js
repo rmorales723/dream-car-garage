@@ -1,5 +1,6 @@
 import React, {Component} from 'react'
 import Car from './Car'
+import {Link} from 'react-router-dom';
 
 
 class CarsContainer extends Component {
@@ -16,15 +17,19 @@ class CarsContainer extends Component {
     
     render() {
         return(
+            <> 
+            <button onClick={() => this.props.history.goBack()}>Back</button>
             <div>
-                <h2>cars</h2>
+                <Link to="/cars/new">Add a Dream Car</Link><h2>Car Collection</h2>
                 {this.state.cars.map(({make,model,img}) => (
                     <Car 
                     make= {make} 
                     model= {model} 
-                    img={img}/>
+                    img= {img}/>
+
                 ))}
             </div>
+            </>
         )
     }
 }

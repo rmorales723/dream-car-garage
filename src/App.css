@@ -1,7 +1,29 @@
 @import '../node_modules/modern-normalize/modern-normalize.css';
+@import 'bulma/css/bulma.css';
 
 .landing-page-container {
   height: 100vh ;
   background-image: url("https://stancewars.com/stancewars/wp-content/uploads/2020/11/125856997_10164362028985024_8965322017264140251_o.jpg");
   background-size: cover;
+}
+
+.form-container-container {
+  height: 88vh ;
+  background-image: url("https://images.pexels.com/photos/7993052/pexels-photo-7993052.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260");
+  background-size: cover;
+}
+
+.new-car-form {
+  height: 12vh;
+}
+
+.App {
+  text-align: center;
+}
+
+.image-car {
+  float: center;
+  width: 700px;
+  height: 400px;
+  object-fit: cover;
 }

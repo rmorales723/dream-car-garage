@@ -1,44 +1,73 @@
 import React from 'react'
 
+
 class FormContainer extends React.Component {
     state = {
        make : "",
+       model: "",
+       img: "",
     };
 
     handleOnChange = (event) => {
+        console.log(event.target.name, event.target.value, event.target)
         this.setState({
-            make: event.target.value,
+            [event.target.name] : event.target.value
         });
         
     };
 
     handleOnSubmit = (event) => {
-        method: 'POST',
-        headers: {'Content-Type': 'application/json'},
-        body: JSON.stringify(event)
-    };
-    
-        fetch("http://localhost:5000/cars")
+        event.preventDefault();
+        fetch("http://localhost:5000/cars", this.addCar())
         .then(res => res.json())
-        .then((cars => this.setState({cars})));
-}
+        .then((cars => this.props.history.push("/cars"))
+        )}
 
-
+    addCar = () => {
+        return {
+            method: 'Post',
+            headers: {
+                'Content-type' : 'application/json',
+                'Accept' : 'application/json'
+            },
+            body: JSON.stringify(this.state)
+        }
+    }
+    
 
     render() {
         return(
-            <div>
-                <form onSubmit= {this.handleOnSubmit}>
+            <>
+            <button onClick={() => this.props.history.goBack()}>Back</button>
+                <form className="new-car-form" onSubmit= {this.handleOnSubmit}>
+                <p>Add Dream Car</p>
+                    <label htmlFor = "make">Make</label>
                     <input
                         type="text" 
-                        make="name" 
+                        name="make" 
                         value={this.state.make}
                         onChange={this.handleOnChange}
                     />
+                    <label htmlFor = "model">Model</label>
+                    <input
+                        type="text" 
+                        name="model" 
+                        value={this.state.model}
+                        onChange={this.handleOnChange}
+                    />
+                    <label htmlFor = "img">Image Url</label>
+                    <input
+                        type="text" 
+                        name="img" 
+                        value={this.state.img}
+                        onChange={this.handleOnChange}
+                    />
+
                     <button type="submit">Submit</button>
                 </form>   
+                <div className= "is-size-4 form-container-container">
             </div>
-            
+            </>
         );
     }
 

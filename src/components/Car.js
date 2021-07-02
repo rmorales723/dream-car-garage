@@ -5,7 +5,7 @@ import React from 'react'
      return (
       <div className="car">
         <h2>{props.make}</h2>
-      <div><img width="100%" src={props.img } alt="" /></div>
+      <div><img className="image-car" width="100%" src={props.img } alt="" /></div>
         <p>{props.model}</p>
       </div>
     );
