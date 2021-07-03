@@ -20,7 +20,7 @@ class CarsContainer extends Component {
             <> 
             <button onClick={() => this.props.history.goBack()}>Back</button>
             <div>
-                <Link to="/cars/new">Add a Dream Car</Link><h2>Car Collection</h2>
+                <Link to="/cars/new">Add a Dream Car</Link><h2></h2>
                 {this.state.cars.map(({make,model,img}) => (
                     <Car 
                     make= {make} 

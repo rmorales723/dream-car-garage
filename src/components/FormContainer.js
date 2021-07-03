@@ -39,10 +39,11 @@ class FormContainer extends React.Component {
         return(
             <>
             <button onClick={() => this.props.history.goBack()}>Back</button>
-                <form className="new-car-form" onSubmit= {this.handleOnSubmit}>
-                <p>Add Dream Car</p>
+                <form className="new-car-form has-text-weight-bold " onSubmit= {this.handleOnSubmit}>
+                <p>Add a Dream Car</p>
+                
                     <label htmlFor = "make">Make</label>
-                    <input
+                    <input 
                         type="text" 
                         name="make" 
                         value={this.state.make}
@@ -65,7 +66,7 @@ class FormContainer extends React.Component {
 
                     <button type="submit">Submit</button>
                 </form>   
-                <div className= "is-size-4 form-container-container">
+                <div className= "form-container-container">
             </div>
             </>
         );

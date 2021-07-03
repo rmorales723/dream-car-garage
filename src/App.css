@@ -27,3 +27,12 @@
   height: 400px;
   object-fit: cover;
 }
+
+img {
+  border: 5px solid #555;
+}
+
+h2 {
+  font-size: 30px;
+}
+
