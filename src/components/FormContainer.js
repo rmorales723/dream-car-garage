@@ -39,7 +39,7 @@ class FormContainer extends React.Component {
         return(
             <>
             <button onClick={() => this.props.history.goBack()}>Back</button>
-                <form className="new-car-form has-text-weight-bold " onSubmit= {this.handleOnSubmit}>
+                <form className="new-car-form has-text-weight-bold has-text-black-bis" onSubmit= {this.handleOnSubmit}>
                 <p>Add a Dream Car</p>
                 
                     <label htmlFor = "make">Make</label>

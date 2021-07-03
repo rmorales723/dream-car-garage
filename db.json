@@ -12,14 +12,10 @@
       "img": "https://images.pexels.com/photos/6656721/pexels-photo-6656721.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260"
     },
     {
-      "make": "Ferrari",
-      "model": "F8 Tributo coupe",
-      "img": "https://images.pexels.com/photos/8254082/pexels-photo-8254082.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260"
-    },
-    {
-      "make": "Bugatti",
-      "model": "La Voiture Noire",
-      "img": "https://images.pexels.com/photos/3802510/pexels-photo-3802510.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260"
+      "make": "Bentley",
+      "model": "Continental GT",
+      "img": "https://www.carscoops.com/wp-content/uploads/2019/08/02848009-2020-bentley-continental-gt-wheelsandmore-14-1024x555.jpg",
+      "id": "eozOWWR"
     },
     {
       "make": "Lamborghini",
@@ -27,16 +23,26 @@
       "img": "https://images.pexels.com/photos/6751428/pexels-photo-6751428.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260"
     },
     {
-      "make": "benz",
-      "model": "es",
-      "img": "https://images.pexels.com/photos/193995/pexels-photo-193995.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260",
-      "id": "l3WDvYK"
+      "make": "Mclaren",
+      "model": "GT",
+      "img": "https://www.carscoops.com/wp-content/uploads/2016/09/27295893_sourcae.jpg",
+      "id": "RJWmB6z"
+    },
+    { 
+      "make": "Bugatti",
+      "model": "La Voiture Noire",
+      "img": "https://images.pexels.com/photos/3802510/pexels-photo-3802510.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260"
+    },
+    {
+      "make": "Ferrari",
+      "model": "F8 Tributo coupe",
+      "img": "https://images.pexels.com/photos/8254082/pexels-photo-8254082.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260"
     },
     {
       "make": "BMW",
       "model": "I8",
       "img": "https://inteng-storage.s3.amazonaws.com/img/iea/9lwjpm0MGE/sizes/bmw-i8-production-end-ie_resize_md.jpg",
       "id": "XyiSRki"
-    }
+    } 
   ]
 }
