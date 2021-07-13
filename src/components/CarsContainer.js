@@ -18,7 +18,7 @@ class CarsContainer extends Component {
     render() {
         return(
             <> 
-            <button onClick={() => this.props.history.goBack()}>Back</button>
+            <button class="btn danger" onClick={() => this.props.history.goBack()}>Back</button>
             <div>
                 <Link to="/cars/new">Add a Dream Car</Link><h2></h2>
                 {this.state.cars.map(({make,model,img}) => (
@@ -26,7 +26,6 @@ class CarsContainer extends Component {
                     make= {make} 
                     model= {model} 
                     img= {img}/>
-
                 ))}
             </div>
             </>

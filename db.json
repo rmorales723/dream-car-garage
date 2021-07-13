@@ -28,7 +28,7 @@
       "img": "https://www.carscoops.com/wp-content/uploads/2016/09/27295893_sourcae.jpg",
       "id": "RJWmB6z"
     },
-    { 
+    {
       "make": "Bugatti",
       "model": "La Voiture Noire",
       "img": "https://images.pexels.com/photos/3802510/pexels-photo-3802510.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260"
@@ -43,6 +43,6 @@
       "model": "I8",
       "img": "https://inteng-storage.s3.amazonaws.com/img/iea/9lwjpm0MGE/sizes/bmw-i8-production-end-ie_resize_md.jpg",
       "id": "XyiSRki"
-    } 
+    }
   ]
 }
