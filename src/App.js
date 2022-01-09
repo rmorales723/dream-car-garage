@@ -10,9 +10,10 @@ function App() {
       <form />
       <Router> 
         <Switch>
-          <Route exact path= "/" component={LandingPage}/>
+        <Route exact path= "/cars/new" component={FormContainer}/>
           <Route exact path= "/cars" component={CarsContainer}/>
-          <Route exact path= "/cars/new" component={FormContainer}/>
+          <Route exact path= "/" component={LandingPage}/>
+          
         </Switch>
       </Router>
     </div>

@@ -9,7 +9,6 @@ class FormContainer extends React.Component {
     };
 
     handleOnChange = (event) => {
-        console.log(event.target.name, event.target.value, event.target)
         this.setState({
             [event.target.name] : event.target.value
         });
@@ -19,7 +18,7 @@ class FormContainer extends React.Component {
     handleOnSubmit = (event) => {
         event.preventDefault();
         fetch("http://localhost:5000/cars", this.addCar())
-        .then(res => res.json())
+        .then(data => data.json())
         .then((cars => this.props.history.push("/cars"))
         )}
 

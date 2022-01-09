@@ -8,6 +8,7 @@
 }
 
 .form-container-container {
+  width: 100;
   height: 88vh ;
   background-image: url("https://images.pexels.com/photos/7993052/pexels-photo-7993052.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260");
   background-size: cover;
