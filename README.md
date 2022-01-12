@@ -33,7 +33,7 @@ Here is a screenshot of the cars-container-page:
 
 ![cars-container-page](https://user-images.githubusercontent.com/72527380/148711146-11ff974d-9c49-4c9b-872f-87d22f28784b.png)
 
-We have a CarsContainerPage react component that makes a fetch request (GET /appointment) call to fetch all the cars data that are present in the database, and then displays each car in the UI. 
+We have a CarsContainerPage react component that makes a fetch request (GET /cars) call to fetch all the cars data that are present in the database, and then displays each car in the UI. 
 
 
 ### form-container-page
